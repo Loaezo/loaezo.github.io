@@ -4,13 +4,14 @@
         <meta charset="utf-8"/>
         <title class="title">GatoStudio</title>
         <link class="title-image" rel="favicon" type="image/png" href="https://imgur.com/3FHkZe5.png">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="estilos/estilos.css" / >
     </head>
     <body>
         <header class="header">
             <div>
-                <figure class="logo">
-                    <img src="https://imgur.com/CUUCB8N.jpg" width="1300" height="150" alt="Aquí va el logo de la escuela ">
+                <figure class="logo-container">
+                    <img class="logo" src="https://imgur.com/CUUCB8N.jpg" width=100% height=200 alt="Aquí va el logo de la escuela ">
                 </figure>
             </div>
             <nav class="menu">
@@ -31,8 +32,9 @@
             </nav>
         </header>
         <section class="hero">
-            <h1>¡Bienvenide! Somos <strong>Gatostudio</strong> <br/>el mejor sitio para aprender danza en el mundo<br/>y también necesitamos dinero hahahhajsd</h1>
-            <img src="images/hero.jpg" width="500" height="500" alt="Aquí la imagen principal de la página"/>
+            <div class="titulo-bienvenida">
+                <h1 class="hero-bienvenida">¡Bienvenide! Somos <strong>Gatostudio</strong>, el mejor sitio para aprender danza en el mundo<br/>y también necesitamos dinero hahahhajsd</h1>
+            </div>
         </section>
         <section id="nosotros" class="about">
             <h2 class="about-title">¿Quiénes somos?</h2>
@@ -49,8 +51,8 @@
         <section class="classes" id="clases">
             <h2 class="classes-title">Clases</h2>
             <article class="classes-about">
-                <figure class="classes-image">
-                    <img src="#" alt="imagen, pues"/>
+                <figure class="classes-imageContainer">
+                    <img class="classes-image" src="https://static.wixstatic.com/media/c10b16_6250bc6fa47e4dfda6561ed35a4e1785~mv2.jpeg/v1/fill/w_440,h_348,al_c,q_80,usm_0.66_1.00_0.01/c10b16_6250bc6fa47e4dfda6561ed35a4e1785~mv2.webp" alt="imagen, pues"/>
                 </figure>
                 <p class="classes-description">Las mejores clases enfocadas a
                    desarrollarte como profesional, damos clases de:
@@ -60,8 +62,8 @@
         <section id="calendario" class="news">
             <h2 class="news-title">Calendario</h2>
             <article class="news-about">
-                <figure class="news-image">
-                    <img src="#" alt="imagen, en lo que hago un javascript con los horarios"/>
+                <figure class="news-imageContainer">
+                    <img class="news-image" src="https://imgur.com/UyNffPM.jpg" width="500" alt="imagen, en lo que hago un javascript con los horarios"/>
                 </figure>
                 <p class="news-description">Aquí van las noticias más relevantes de la escuela, como
                     competencias, master clases, eventos, funciones, etc.
@@ -71,8 +73,8 @@
         <section class="subscription" id="contacto">
             <form class="subscription-form" action="/suscripcion/">
                 <h3 class="subscription-title">¿Listo para tu primera clase de danza? ¿Tienes dudas? ¡Para eso estamos!</h3>
-                <input type="text" placeholder="¡Déjanos tu e-mail!" id="email">
-                <input type="submit" value="Enviar">
+                <input class="subscription-text" type="text" placeholder="¡Déjanos tu e-mail!" id="email">
+                <input class="subscription-button" type="submit" value="Enviar">
             </form>
         </section>
         <footer class="footer">Footer</footer>

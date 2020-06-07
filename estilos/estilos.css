@@ -1,4 +1,66 @@
 body
 {
-  background-color: aqua;
+font-family: Lato, sans-serif;
+background-color: #111a1a;
+color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Open sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -1px;
+  text-transform: none;
+}
+
+h1 strong
+{
+  color: #026fff;
+}
+
+logo-container
+{
+  width: max-content;
+}
+
+.header
+{
+  background: #112a2a;
+  color: whitesmoke;
+}
+
+.header a
+{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.titulo-bienvenida
+{
+  width: auto;
+  height: fit-content;
+  color: whitesmoke;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:#112a2a;
+  background-image: url(https://imgur.com/Rx7uRHr.jpg);
+  background-position-x: right;
+  background-size: contain;
+}
+.hero-bienvenida
+{
+  width: 50%;
+}
+
+.hero-image
+{
+  width: 50%;
+}
+
+h1
+{
+  line-height: 1.5em;
+  font-size: 40px;
+  width: auto;
 }
