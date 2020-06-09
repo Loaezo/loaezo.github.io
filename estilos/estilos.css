@@ -1,12 +1,15 @@
 body
 {
-font-family: Lato, sans-serif;
-background-color: #111a1a;
-color: whitesmoke;
+  font-family: Lato, sans-serif;
+  background-color: #111a1a;
+  color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5, h6
 {
+  line-height: 1.5em;
+  font-size: 40px;
+  width: auto;
   font-family: 'Open sans', sans-serif;
   text-align: center;
   font-weight: 400;
@@ -24,10 +27,30 @@ logo-container
   width: max-content;
 }
 
-.header
+.hero-bienvenida
 {
+  margin-right: 600px;
+}
+
+.header, .about, .classes, .news, .subscription, .titulo-bienvenida
+{
+  margin-top: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
   background: #112a2a;
   color: whitesmoke;
+  width: auto;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:#112a2a;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.subscription-form
+{
+  align-self: center;
 }
 
 .header a
@@ -36,31 +59,43 @@ logo-container
   text-decoration: none;
 }
 
+.news
+{
+  background-image: url(https://imgur.com/UyNffPM.jpg);
+}
+
+.classes
+{
+  background-image: url(https://static.wixstatic.com/media/c10b16_6250bc6fa47e4dfda6561ed35a4e1785~mv2.jpeg/v1/fill/w_440,h_348,al_c,q_80,usm_0.66_1.00_0.01/c10b16_6250bc6fa47e4dfda6561ed35a4e1785~mv2.webp);
+}
+
 .titulo-bienvenida
 {
-  width: auto;
-  height: fit-content;
-  color: whitesmoke;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color:#112a2a;
   background-image: url(https://imgur.com/Rx7uRHr.jpg);
-  background-position-x: right;
-  background-size: contain;
 }
-.hero-bienvenida
+.hero-bienvenida, .classes-description, .news-description
 {
+  padding: 1em;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
   width: 50%;
+}
+
+.about-date
+{
+  padding: 1em;
+}
+
+.about-history
+{
+  padding: 1em;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 22px;
 }
 
 .hero-image
 {
   width: 50%;
-}
-
-h1
-{
-  line-height: 1.5em;
-  font-size: 40px;
-  width: auto;
 }
